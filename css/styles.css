@@ -198,12 +198,12 @@ bottom: -1px;
     width: calc((100% - 72px) / 4);
 }
 .sol-icon {
-text-align: center;
-padding: 24px 100px;
-background-color: #F4F4FD;
-border: 1px solid #8E8F99;
-border-radius: 4px;
-margin-bottom: 8px;
+    text-align: center;
+    padding: 24px 100px;
+    background-color: #F4F4FD;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
 .solutions-name {
     font-size: 20px;
