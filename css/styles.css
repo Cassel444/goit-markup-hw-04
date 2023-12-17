@@ -79,8 +79,8 @@ h1,h2 {
 }
 .menu-link:hover,
 .menu-link:focus,
-.menu-link.one {
-    color: #404bbf;
+.menu-link.active {
+color: #404bbf;
 }
  .menu-link.active {
 display: block;
