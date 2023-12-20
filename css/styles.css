@@ -23,6 +23,9 @@ h1,h2 {
     margin-left: auto;
     margin-right: auto;
 }
+input {
+    font-family: inherit;
+}
 .container {
     width: 1158px;
     margin: 0 auto;
@@ -389,9 +392,17 @@ background-color: #404bbf;
 .footer-container {
     margin-right: 120px;
 }
-.footer {
+.logo-link-footer {
     display: inline-block;
     margin-bottom: 16px;
+    font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: #4d5ae5;
 }
 .logo-name-footer {
     font-family: "Raleway", sans-serif;
@@ -407,19 +418,13 @@ background-color: #404bbf;
     background-color: #2E2F42;
     color: #F4F4FD;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
 }
-.footer-text-icon {
-    color: WHITE;
-    margin-bottom: 16px;
-    margin-right: 0;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.footer-container-two {
+    margin-right: 80px;
 }
 .footer-icon-list {
     display: flex;
@@ -448,4 +453,60 @@ background-color: #404bbf;
 .footer-icon-social {
     fill: #F4F4FD;
 }
-
+.container-button {
+    display: flex;
+    flex-direction: column;
+}
+.footer-text-icon {
+    color: WHITE;
+    margin-bottom: 16px;
+    margin-right: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.form-footer {
+    display: flex;
+    gap: 24px;
+}
+.input-footer {
+    max-width: 264px;
+    max-height: 40px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background-color: #2E2F42;
+    padding: 8px 212px 8px 16px;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
+}
+input::placeholder {
+    color: #FFFFFF;
+}
+.button-footer {
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    display: flex;
+    margin-right: auto;
+    min-width: 165px;
+    height: 40px;
+    padding: 8px 24px;
+    gap: 16px;
+    border: none;
+    border-radius: 4px;
+}
+.icon-footer {
+    fill: #FFFFFF;
+}
